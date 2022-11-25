@@ -1,4 +1,4 @@
-#
+# (Nov 24, 2022) While working on U_Widsor project, decided to learn some new skills
 #
 # 1) 
 df = pd.read_csv('C:\\Users\\pdybskiy\\Documents\\Python\\Proj_xls_reduction1\\Striker_F_Runs2_3_4.csv',header=1)
@@ -20,8 +20,6 @@ df_re_750r.to_csv('C:\\Users\\pdybskiy\\Documents\\Python\\Proj_xls_reduction1\\
 df_re_200mks.to_csv('C:\\Users\\pdybskiy\\Documents\\Python\\Proj_xls_reduction1\\F_resample_200mks.csv', index=False)
 #  ValueErrodfr: Length of values (20001) does not match length of index (30001)
 #
-
-
 df = pd.read_csv('C:\\Users\\pdybskiy\\Documents\\Python\\Proj_xls_reduction1\\Test100.csv',header=0)
 df['datetime']=t5e6n30001
 df_re_750r=df.resample('200U',on='datetime').first()
