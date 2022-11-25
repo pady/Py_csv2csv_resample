@@ -1,4 +1,5 @@
 # (Nov 24, 2022) While working on U_Widsor project, decided to learn some new skills
+# (nOV 24, 2022) lEARNING BRANCHING
 #
 # 1) 
 df = pd.read_csv('C:\\Users\\pdybskiy\\Documents\\Python\\Proj_xls_reduction1\\Striker_F_Runs2_3_4.csv',header=1)
